@@ -1,5 +1,10 @@
 package org.example;
 
+import org.example.interfaces.Developer;
+import org.example.visitors.JuniorDeveloper;
+import org.example.visitors.Project;
+import org.example.visitors.SeniorDeveloper;
+
 public class Runner {
     public static void main(String[] args) {
         Project project = new Project();
